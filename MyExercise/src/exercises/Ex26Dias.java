@@ -7,7 +7,7 @@ public class Ex26Dias {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("Digite um número inteiro para saber a qual dia da semana o mesmo é referido: ");
+		System.out.print("Digite um nÃºmero inteiro para saber a qual dia da semana o mesmo Ã© referido: ");
 		int input = in.nextInt();
 		
 		switch (input){
@@ -15,7 +15,7 @@ public class Ex26Dias {
 				System.out.print("Segunda-Feira (dia da semana).");
 				break;
 			case 2: 
-				System.out.print("Terça-Feira (dia da semana).");
+				System.out.print("TerÃ§a-Feira (dia da semana).");
 				break;
 			case 3: 
 				System.out.print("Quarta-Feira (dia da semana).");
@@ -27,17 +27,17 @@ public class Ex26Dias {
 				System.out.print("Sexta-Feira (dia da semana).");
 				break;
 			case 6: 
-				System.out.print("Sabádo (Fim de semana).");
+				System.out.print("SabÃ¡do (Fim de semana).");
 				break;			
 			case 7: 
 				System.out.print("Domingo (Fim de semana).");
 				break;
 				
 			default: 
-				System.out.print("Dia inválido. Digite números entre 1 e 7.");
+				System.out.print("Dia invÃ¡lido. Digite nÃºmeros entre 1 e 7.");
+
+			in.close();
 		}
-		
-		in.close();
 	}
 
 }
