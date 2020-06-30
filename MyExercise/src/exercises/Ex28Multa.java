@@ -12,7 +12,7 @@ public class Ex28Multa {
 		System.out.print("Insira o mês(em número) que a multa foi paga: ");
 		int mes = in.nextInt();
 
-		double juroComp = valorMulta * (Math.pow(1 + 0.05, mes));
+		double juroComp = valorMulta * (Math.pow(1 + 0.05, mes - 1));
 		if (mes == 1) {
 			System.out.printf("O valor da multa a ser pago é: %.2f", valorMulta);
 		} else {
