@@ -15,15 +15,15 @@ public class Ex31Xy {
 		double soma = 0;
 		double mul = 1;
 		for (double i = n1; i < n2; ++i) {
-			if (i % 2 == 0) {
+			if (i % 2 == 0)
 				soma += i;
-			} else if (i % 2 != 0) {
+			 else if (i % 2 != 0) {
 				mul *= i;
 			}
 		}
-		System.out.print("Os numeros digitados foram = " + n1 + " e " + n2);
+		System.out.println("Os numeros digitados foram = " + n1 + " e " + n2);
 		System.out.println("A soma dos pares do intervalo é igual a: " + soma);
-		System.out.print("O produto dos impares do intervalo é igual a: " + mul);
+		System.out.println("O produto dos impares do intervalo é igual a: " + mul);
 
 		in.close();
 	}
