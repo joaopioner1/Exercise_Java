@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Ex31XYSM {
+public class Ex31Xy {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
