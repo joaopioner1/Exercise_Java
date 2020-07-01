@@ -37,8 +37,6 @@ public class Ex30Mesada {
 					} else {
 						System.out.print("Você não tem dinheiro para comprar esse produto.");
 
-						
-
 					}
 				}
 			}
