@@ -6,25 +6,14 @@ public class Ex30Mesada {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-
-
-		
-
-		System.out.print("Quanto você recebe de mesada? ");
-
+	
+		System.out.print("Quanto vocÃª recebe de mesada? ");
 		double mesada = in.nextDouble();
-
-		
-
-		System.out.print("Você deseja comprar alguma coisa?(sim/nao) ");
-
+		System.out.print("VocÃª deseja comprar alguma coisa?(sim/nao) ");
 		String resposta = in.next();
 
 		if (resposta.equals("nao")) {
-
-			System.out.print("Tudo bem, até logo!");
-
-			
+		System.out.print("Tudo bem, atÃ© logo!");
 		}
 		if (resposta.equals("sim")) {
 			System.out.print("Insira o valor do produto que deseja comprar: ");
@@ -32,15 +21,11 @@ public class Ex30Mesada {
 
 			if (valorP1 <= mesada) 
 
-				System.out.print("Você pode comprar esse produto, e o saldo restante Ã©: " + (mesada - valorP1 + " reais."));
+				System.out.print("VocÃª pode comprar esse produto, e o saldo restante ÃƒÂ©: " + (mesada - valorP1 + " reais."));
 
 				double resto = mesada - valorP1;
-
-
 				
-
-				System.out.print("Você deseja comprar mais alguma coisa?(sim/nao) ");
-
+				System.out.print("VocÃª deseja comprar mais alguma coisa?(sim/nao) ");
 				String resposta2 = in.next();
 				
 				if (resposta2.equals("sim")) {
@@ -48,15 +33,9 @@ public class Ex30Mesada {
 					double valorP2 = in.nextDouble();
 
 					if (resto >= valorP2) {
-			
-
-						System.out.print("Você pode comprar somente mais esse produto, porque o estoque da loja acabou. O saldo restante Ã©: " + (resto - valorP2) + " reais.");
-
+						System.out.print("VocÃª pode comprar somente mais esse produto, porque o estoque da loja acabou. O saldo restante ÃƒÂ©: " + (resto - valorP2) + " reais.");
 					} else {
-
-						System.out.print("Você não tem dinheiro para comprar esse produto.");
-
-						
+						System.out.print("VocÃª nÃ£o tem dinheiro para comprar esse produto.");
 
 					}
 				}
