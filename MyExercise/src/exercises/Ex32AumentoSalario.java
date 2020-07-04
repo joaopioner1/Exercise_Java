@@ -7,7 +7,7 @@ public class Ex32AumentoSalario {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("Insira o salário do colaborador: ");
+		System.out.print("Insira o salário do colaborador:  ");
 		double salario = in.nextDouble();
 
 		if (salario <= 280) {
