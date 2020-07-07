@@ -20,7 +20,6 @@ public class Ex30Mesada {
 			double valorP1 = in.nextDouble();
 
 			if (valorP1 <= mesada) 
-
 				System.out.print("Você pode comprar esse produto, e o saldo restante Ã©: " + (mesada - valorP1 + " reais."));
 
 				double resto = mesada - valorP1;
