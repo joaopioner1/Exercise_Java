@@ -7,8 +7,7 @@ public class Ex33Notas {
 		Scanner in = new Scanner(System.in);
 		
 		int valor = in.nextInt();
-		
-		System.out.println(valor);
+		System.out.print(valor);
 		
 		System.out.println(valor / 100 + " nota(s) de R$ 100,00");
 		valor = valor % 100;
