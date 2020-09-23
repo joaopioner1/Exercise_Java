@@ -4,7 +4,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in);	    
-        
+        l
         System.out.print("Insira a quatidade de homens: ");
         int quantH = in.nextInt();
         System.out.print("Insira a quatidade de mulheres: ");
