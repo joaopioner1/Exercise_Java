@@ -17,7 +17,7 @@ public class Names {
 		}
 		
 		for (int i = 0; i < countNames; ++i) {
-			System.out.println("Nomes digitados: " + names[i]);
+			System.out.println("Nomes digitados: " + names[i]); //agrupa os nomes
 		}
 		
 		in.close();
