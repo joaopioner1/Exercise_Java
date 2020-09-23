@@ -16,7 +16,7 @@ public class Names {
 			names[i] = in.next();
 		}
 		
-		for (int i = 0; i < countNames; ++i) {
+		for (int i = 0; i < countNames; ++i) { //percorre o vetor
 			System.out.println("Nomes digitados: " + names[i]); //agrupa os nomes
 		}
 		
