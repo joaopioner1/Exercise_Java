@@ -20,7 +20,7 @@ public class LessNumbers {
 		}
 		
 		for (int j = 0; j < count; ++j) {
-			System.out.println("A substracao de " + n1[j] + " + " + n2[j] + " = " + (n1[j] - n2[j]));
+			System.out.println("A substracao de " + n1[j] + " - " + n2[j] + " = " + (n1[j] - n2[j]));
 		}
 		in.close();
 	}
