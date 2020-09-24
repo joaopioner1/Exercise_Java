@@ -7,7 +7,7 @@ public class DivisionNumbers {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("Digite quantos numeros deseja adigitar (lembre-se, o programa subtrai 2 numrs): ");
+		System.out.println("Digite quantos numeros deseja adigitar (lembre-se, o divide subtrai 2 numrs): ");
 		int count = in.nextInt();
 		double[] n1 = new double[count];
 		double[] n2 = new double[count];
@@ -20,7 +20,7 @@ public class DivisionNumbers {
 		}
 		
 		for (int j = 0; j < count; ++j) {
-			System.out.println("A divisao de " + n1[j] + " x " + n2[j] + " = " + (n1[j] / n2[j]));
+			System.out.println("A divisao de " + n1[j] + " / " + n2[j] + " = " + (n1[j] / n2[j]));
 		}
 		in.close();
 
