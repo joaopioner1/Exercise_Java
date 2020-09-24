@@ -7,7 +7,7 @@ public class MultiplicationNumbers {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("Digite quantos numeros deseja adigitar (lembre-se, o programa subtrai 2 numrs): ");
+		System.out.println("Digite quantos numeros deseja adigitar (lembre-se, o programa multiplica 2 numrs): ");
 		int count = in.nextInt();
 		double[] n1 = new double[count];
 		double[] n2 = new double[count];
