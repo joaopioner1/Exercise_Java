@@ -7,7 +7,7 @@ public class NameAges {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("Diga quantos nomes voce deseja digitar: ");
+		System.out.print("Insira quantos nomes voce deseja digitar: ");
 		int count = in.nextInt();
 		
 		String[] names = new String[count];
