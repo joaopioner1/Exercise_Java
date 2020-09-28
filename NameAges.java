@@ -22,7 +22,7 @@ public class NameAges {
 		}
 		
 		for (int j = 0; j < count; ++j) {
-			System.out.println("Nome: " + names[j] + " | Idade: " + age[j]);
+			System.out.println("Nome: " + names[j] + " | idade: " + age[j]);
 		}
 		in.close();
 	}
