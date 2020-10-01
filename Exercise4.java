@@ -19,10 +19,10 @@ public class Exercise4 {
 		
 		for (int i = 0; i < vet.length;) {
 			if (vet[i].equals(name)) {
-				System.out.print("ACHEI");
+				System.out.print("ACHEI O NOME");
 				break;
 			} else {
-				System.out.print("NAO ACHEI");
+				System.out.print("NAO ACHEI O NOME");
 				break;
 			}
 		}
