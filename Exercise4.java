@@ -15,7 +15,7 @@ public class Exercise4 {
 			vet[i] = in.next();
 		}
 		
-		System.out.println("\nInsira um numero qualquer: ");
+		System.out.print("\nInsira um numero qualquer: ");
 		String name = in.next();
 		
 		for (int i = 0; i < vet.length;) {
