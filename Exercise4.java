@@ -8,7 +8,6 @@ public class Exercise4 {
 		Scanner in = new Scanner(System.in);
 		
 		String[] vet = new String[10];
-		//String[] vet2 = new String[vet1.length];
 		
 		for (int i = 0; i < vet.length; ++i) {
 			System.out.print("Insira um nome: ");
