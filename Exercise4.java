@@ -15,7 +15,7 @@ public class Exercise4 {
 			vet[i] = in.next();
 		}
 		
-		System.out.println("Insira um numero qualquer: ");
+		System.out.println("\nInsira um numero qualquer: ");
 		String name = in.next();
 		
 		for (int i = 0; i < vet.length;) {
@@ -32,7 +32,7 @@ public class Exercise4 {
 	}
 
 }
-/*Ler um vetor com 10 nomes de pessoas, após pedir que o usuário digite um nome qualquer de
-pessoa. Escrever a mensagem “ACHEI”, se o nome estiver armazenado no vetor C ou “NÃO ACHEI”
-caso contrário. 
+/*Ler um vetor com 10 nomes de pessoas, apÃ³s pedir que o usuÃ¡rio digite um nome qualquer de
+pessoa. Escrever a mensagem â€œACHEIâ€, se o nome estiver armazenado no vetor C ou â€œNÃƒO ACHEIâ€
+caso contrÃ¡rio. 
 */
