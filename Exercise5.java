@@ -26,7 +26,8 @@ public class Exercise5 {
 				System.out.println("Produto total: " + input[j]);
 			}
 		} 
-		
+		if (simbolo = '+') {
+		}
 		
 		
 		
