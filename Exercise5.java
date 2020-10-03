@@ -27,6 +27,8 @@ public class Exercise5 {
 			}
 		} 
 		if (simbolo = '+') {
+			System.out.print("Insira um numero para multiplicar: ");
+			input[i] = in.nextDouble();
 		}
 		
 		
