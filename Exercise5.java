@@ -13,13 +13,10 @@ public class Exercise5 {
 			System.out.print("Digite um numero: ");
 			vet[i] = in.nextDouble();
 		}
-		
 		System.out.println("Os numeros digitados foram: ");
 		for (int j = 0; j < vet.length; j++) {
 			System.out.println("-> " + vet[j]);
 		}
-		
-		
 		in.close();
 	}
 
