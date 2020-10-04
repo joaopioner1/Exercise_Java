@@ -15,7 +15,7 @@ public class Exercise7 {
 			notas[i] = in.nextDouble();
 			soma += notas[i];
 		}
-		System.out.println("A media das notas eh: " + (soma / 4));
+		System.out.println("\nA media das notas eh: " + (soma / 4));
 		
 		in.close();
 	}
