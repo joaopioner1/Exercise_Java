@@ -8,6 +8,8 @@ public class Exercise8 {
 		Scanner in = new Scanner(System.in);
 		
 		char[] vet = new char[10];
+		int vogal = 0;
+		
 		for (int i = 0; i < vet.length; i++) {
 			System.out.print("Insira um caracter: ");
 			vet[i] = in.next().charAt(0);
@@ -17,9 +19,11 @@ public class Exercise8 {
 		for (int i = 0; i < vet.length; i++) {
 			if (vet[i] == 'a' || vet[i] == 'e' || vet[i] == 'i' || vet[i] == 'o' || vet[i] == 'u') {
 				System.out.println("-");
+				vogal += 1;
 			} else {
 				System.out.println(vet[i]);
 			}
+			System.out.println("Quantidade de vogais digitadas: " + vogal);
 		}
 		in.close();
 	}
