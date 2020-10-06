@@ -16,7 +16,7 @@ public class Exercise8 {
 		System.out.println("As consoantes digitadas foram: ");
 		for (int i = 0; i < vet.length; i++) {
 			if (vet[i] == 'a' || vet[i] == 'e' || vet[i] == 'i' || vet[i] == 'o' || vet[i] == 'u') {
-				System.out.println("-");
+				System.out.println("-=+");
 			} else {
 				System.out.println(vet[i]);
 			}
