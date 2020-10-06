@@ -8,7 +8,6 @@ public class Exercise8 {
 		Scanner in = new Scanner(System.in);
 		
 		char[] vet = new char[10];
-		
 		for (int i = 0; i < vet.length; i++) {
 			System.out.print("Insira um caracter: ");
 			vet[i] = in.next().charAt(0);
@@ -26,4 +25,4 @@ public class Exercise8 {
 	}
 
 }
-//Faça  um  Programa q ue  leia  um   vetor  de  10   caracteres,  e  diga  quantas   consoantesforam lidas. Imprima as consoantes. 
+//FaÃ§a  um  Programa q ue  leia  um   vetor  de  10   caracteres,  e  diga  quantas   consoantesforam lidas. Imprima as consoantes. 
