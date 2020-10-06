@@ -6,14 +6,14 @@ public class Ex6Evento {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		
+		//codigo morto
 		System.out.print("Entre com o valor de cada ingresso: ");
 		float valorI = in.nextFloat();
-		System.out.print("Entre com o número de pessoas (público do evento) que são sócias do clube: ");
+		System.out.print("Entre com o nÃºmero de pessoas (pÃºblico do evento) que sÃ£o sÃ³cias do clube: ");
 		int socios = in.nextInt();
-		System.out.print("Entre com o número de pessoas (público do evento) não pagantes (menores de 10 anos): ");
+		System.out.print("Entre com o nÃºmero de pessoas (pÃºblico do evento) nÃ£o pagantes (menores de 10 anos): ");
 		int criancas = in.nextInt();
-		System.out.print("Entre com o número de pessoas (público do evento) pagantes (sem desconto algum): ");
+		System.out.print("Entre com o nÃºmero de pessoas (pÃºblico do evento) pagantes (sem desconto algum): ");
 		int pComuns = in.nextInt();
 		
 		int publicoTotal = socios + criancas + pComuns;
@@ -25,9 +25,9 @@ public class Ex6Evento {
 		float totalArrecadado = valorS + valorPC + valorC;
 		float totalPerdido =(valorFicCrianca + valorFicSocio + valorPC) - (totalArrecadado);
 		
-		System.out.print("\nO publico total é: " + publicoTotal);
-		System.out.print("\nO valor arrecadado é: " + totalArrecadado);
-		System.out.print("\nO valor perdido com as exceções é: " + totalPerdido);
+		System.out.print("\nO publico total Ã©: " + publicoTotal);
+		System.out.print("\nO valor arrecadado Ã©: " + totalArrecadado);
+		System.out.print("\nO valor perdido com as exceÃ§Ãµes Ã©: " + totalPerdido);
 		
 		in.close();
 	}
