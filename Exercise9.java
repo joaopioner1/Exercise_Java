@@ -7,6 +7,7 @@ public class Exercise9 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
+		//Vetores
 		int[] vet = new int[20];
 		int[] vetPar = new int[vet.length];
 		int[] vetImpar = new int[vet.length];
@@ -41,6 +42,6 @@ public class Exercise9 {
 	}
 
 }
-/*Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
-Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
-Imprima os três vetores.*/
+/*FaÃ§a um Programa que leia 20 nÃºmeros inteiros e armazene-os num vetor.
+Armazene os nÃºmeros pares no vetor PAR e os nÃºmeros IMPARES no vetor impar.
+Imprima os trÃªs vetores.*/
