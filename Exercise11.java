@@ -9,7 +9,7 @@ public class Exercise11 {
 		
 		int[] vet = new int[5];
 		int soma = 0;
-		int mul = 0;
+		int mul = 1;
 		
 		for (int i = 0; i < vet.length; ++i) {
 			System.out.println("Digite um numero inteiro: ");
@@ -31,6 +31,6 @@ public class Exercise11 {
 	}
 
 }
-/*Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a
-multiplicação e os números.
+/*FaÃ§a um Programa que leia um vetor de 5 nÃºmeros inteiros, mostre a soma, a
+multiplicaÃ§Ã£o e os nÃºmeros.
 */
