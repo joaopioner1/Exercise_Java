@@ -26,6 +26,7 @@ public class Exercise11 {
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(soma);
 		}
+		System.out.println("Multiplicacao total dos numeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(mul);
 		}
