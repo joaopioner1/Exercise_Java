@@ -18,15 +18,15 @@ public class Exercise11 {
 			mul *= vet[i];
 		}
 		
-		System.out.println("Numeros digitados: ");
+		System.out.println("\nNumeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(vet[j]);
 		}
-		System.out.println("Soma total dos numeros digitados: ");
+		System.out.println("\nSoma total dos numeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(soma);
 		}
-		System.out.println("Multiplicacao total dos numeros digitados: ");
+		System.out.println("\nMultiplicacao total dos numeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(mul);
 		}
