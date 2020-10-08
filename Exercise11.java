@@ -22,7 +22,7 @@ public class Exercise11 {
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(vet[j]);
 		}
-		
+		System.out.println("Soma total dos numeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(soma);
 		}
