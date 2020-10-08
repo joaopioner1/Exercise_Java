@@ -18,9 +18,11 @@ public class Exercise11 {
 			mul *= vet[i];
 		}
 		
+		System.out.println("Numeros digitados: ");
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(vet[j]);
 		}
+		
 		for (int j = 0; j < vet.length; ++j) {
 			System.out.println(soma);
 		}
