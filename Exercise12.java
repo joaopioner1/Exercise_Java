@@ -13,7 +13,7 @@ public class Exercise12 {
 		for (int i = 0; i < age.length; ++i) {
 			System.out.print("insira a idade da pessoa: ");
 			age[i] = in.nextInt();
-			System.out.println("insira a altura da pessoa: ");
+			System.out.print("insira a altura da pessoa: ");
 			h[i] = in.nextInt();
 		}
 		
@@ -27,7 +27,7 @@ public class Exercise12 {
 
 }
 /*
- * aça um Programa que peça a idade e a altura de 5 pessoas, armazene cada
- * informação no seu respectivo vetor. Imprima a idade e a altura na ordem
+ * aÃ§a um Programa que peÃ§a a idade e a altura de 5 pessoas, armazene cada
+ * informaÃ§Ã£o no seu respectivo vetor. Imprima a idade e a altura na ordem
  * inversa a ordem lida.
  */
