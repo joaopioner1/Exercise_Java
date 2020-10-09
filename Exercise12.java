@@ -14,7 +14,7 @@ public class Exercise12 {
 			System.out.print("insira a idade da pessoa: ");
 			age[i] = in.nextInt();
 			System.out.print("insira a altura da pessoa: ");
-			h[i] = in.nextInt();
+			h[i] = in.nextDouble();
 		}
 		
 		byte pessoa = 0;
