@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercise10 {
 
 	public static void main(String[] args) {
+		//nao esta funcionando corretamente
 		Scanner in = new Scanner(System.in);
 		
 		int[] alunos = new int[10];
@@ -40,7 +41,7 @@ public class Exercise10 {
 	}
 
 }
-/* Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene
-num vetor a média de cada aluno, imprima o número de alunos com média maior
+/* FaÃ§a um Programa que peÃ§a as quatro notas de 10 alunos, calcule e armazene
+num vetor a mÃ©dia de cada aluno, imprima o nÃºmero de alunos com mÃ©dia maior
 ou igual a 7.0.
 */
