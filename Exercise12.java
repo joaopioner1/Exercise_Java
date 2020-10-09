@@ -16,10 +16,11 @@ public class Exercise12 {
 			System.out.print("insira a altura da pessoa: ");
 			h[i] = in.nextDouble();
 		}
-		
+		System.out.println("----------------------------------");
 		byte pessoa = 0;
 		for (int j = 0; j < age.length; ++j) {
-			System.out.println("\nAltura da pessoa " + (pessoa + 1) + ": " + h[j]);
+			pessoa += 1;
+			System.out.println("Altura da pessoa " + pessoa + ": " + h[j]);
 			System.out.println("idade da pessoa " + pessoa + ": " + age[j]);
 		}
 		in.close();
