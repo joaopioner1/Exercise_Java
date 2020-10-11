@@ -8,9 +8,13 @@ public class Exercise13 {
 		Scanner in = new Scanner(System.in);
 		
 		int[] A = new int[10];
+		int quad = 0, soma = 0;
 		
-		for (int i) {
-			
+		for (int i = 0; i < A.length; ++i) {
+			System.out.print("Insira um numero: ");
+			A[i] = in.nextInt();
+			quad = (int) Math.pow(2, A[i]);
+			soma += quad;
 		}
 		
 		
@@ -18,6 +22,6 @@ public class Exercise13 {
 	}
 
 }
-/* Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre
+/* FaÃ§a um Programa que leia um vetor A com 10 nÃºmeros inteiros, calcule e mostre
 a soma dos quadrados dos elementos do vetor.
 */
