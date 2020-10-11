@@ -16,7 +16,7 @@ public class Exercise13 {
 			quad = (int) Math.pow(2, A[i]);
 			soma += quad;
 		}
-		
+		System.out.println("A soma dos quadrados do elementos do vetor: " + soma);
 		
 		in.close();
 	}
