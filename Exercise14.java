@@ -6,7 +6,7 @@ public class Exercise14 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		
+		//teste
 		double[] vet1 = new double[10];
 		double[] vet2 = new double[vet1.length];
 		double[] vet3 = new double[vet1.length];
@@ -31,7 +31,7 @@ public class Exercise14 {
 	}
 
 }
-/*.FaÁa um Programa que leia dois vetores com 10 elementos cada. Gere um terceiro
-vetor de 20 elementos, cujos valores dever„o ser compostos pelos elementos
+/*.Fa√ßa um Programa que leia dois vetores com 10 elementos cada. Gere um terceiro
+vetor de 20 elementos, cujos valores dever√£o ser compostos pelos elementos
 intercalados dos dois outros vetores.
 */
