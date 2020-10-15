@@ -9,12 +9,13 @@ public class Exercise15 {
 		
 		int[] age = new int[10];
 		double[] height = new double[age.length];
-		double soma = 0, alunoRuim = 0, alunoBom = 0;
+		int soma = 0, alunoRuim = 0, alunoBom = 0, sm = 0;
 		
 		for (int i = 0; i < age.length; ++i) {
-			System.out.print("Insira a idade do aluno " + (age[i] + 1) + ": ");
+			sm += 1;
+			System.out.print("Insira a idade do aluno " + sm + ": ");
 			age[i] = in.nextInt();
-			System.out.print("Insira a altura do aluno " + (age[i] + 1) + ": ");
+			System.out.print("Insira a altura do aluno " + sm + ": ");
 			height[i] = in.nextDouble();
 			soma += height[i];
 		}
