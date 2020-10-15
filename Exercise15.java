@@ -7,7 +7,7 @@ public class Exercise15 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		int[] age = new int[30];
+		int[] age = new int[10];
 		double[] height = new double[age.length];
 		double soma = 0, alunoRuim = 0, alunoBom = 0;
 		
@@ -18,7 +18,7 @@ public class Exercise15 {
 			height[i] = in.nextDouble();
 			soma += height[i];
 		}
-		double mediAltura = soma / 30;
+		double mediAltura = soma / 10;
 		
 		for (int j = 0; j < age.length; ++j) {
 			if (age[j] >= 13 && height[j] < mediAltura) {
@@ -27,12 +27,14 @@ public class Exercise15 {
 				alunoBom += 1;
 			}
 		}
-		System.out.println("Quantidade de alunos com");
+		System.out.println("Quantidade de alunos com 13 anos e altura abaixo da media: " + alunoRuim);
+		System.out.println("alunos normais: " + alunoBom);
+	
 		in.close();
 	}
 
 }
-/*.Foram anotadas as idades e alturas de 30 alunos. Faça um Programa que
-determine quantos alunos com mais de 13 anos possuem altura inferior à média de
+/*.Foram anotadas as idades e alturas de 30 alunos. FaÃ§a um Programa que
+determine quantos alunos com mais de 13 anos possuem altura inferior Ã  mÃ©dia de
 altura desses alunos.
 */
