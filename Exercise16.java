@@ -19,7 +19,7 @@ public class Exercise16 {
 		}
 		
 		for (int j = 0; j < name.length; ++j) {
-			//System.out.println("Nome: " + name[j] + " / Idade: " + age[j]);
+			System.out.println("Nome: " + name[j] + " / Idade: " + age[j]);
 		}
 		
 		
